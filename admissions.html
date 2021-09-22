@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>DPS Pune | Admissions</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="nav">
+        <a href="homepage.html"><img id="dps-icon" src="dps-icon.jfif" /></a>
+        <a href="homepage.html" class="link">Home</a>
+        <a href="admissions.html" class='link' id="active">Admissions</a>
+        <a href="events.html" class='link'>Events</a>
+    </div>
+    <h2>ADMISSIONS 2022-23</h2>
+    <img src="admission.jfif" id="admission-img" />
+    <p class="admn-text">Please fill out the following form and submit by 31st October 2021.</p>
+    <form id="admn-form">
+        First name:<input type="text" />
+        <br />
+        <br />
+        Last name:<input type="text" />
+        <br />
+        <br />
+        Grade:<SELECT>
+            <OPTION VALUE="--Select Grade--"> --Select Grade--
+            <OPTION VALUE="9"> 9
+            <OPTION VALUE="10"> 10
+            <OPTION VALUE="11"> 11
+            <OPTION VALUE="12"> 12
+        </SELECT>
+        <br />
+        <br />
+        Date of Birth:
+        <input type="date" />
+        <br />
+        <br />
+        Select Subjects (Only for 11th and 12th grade):
+        <br />
+        <br />
+        <input type="checkbox" /> Physics
+        <br />
+        <input type="checkbox" /> Chemistry
+        <br />
+        <input type="checkbox" /> Math
+        <br />
+        <input type="checkbox" /> Biology
+        <br />
+        <input type="checkbox" /> Computer Science
+        <br />
+        <input type="checkbox" /> Informatics Practices
+        <br />
+        <br />
+        Gender:
+        <input type="radio" name="gender" /> Male
+        <input type="radio" name="gender" /> Female
+        <input type="radio" name="gender" /> Other
+        <br />
+        <br />
+        Upload scanned copy of Aadhar card:<INPUT TYPE="FILE" ONCHANGE="READURL(THIS);" />
+        <br />
+        <br />
+        Any additional comments:<br /><textarea rows="5" cols="30" id="comments">Enter your text here...</textarea>
+        <br />
+        <br />
+        <input type="reset" class="buttons" /><input type="submit" class="buttons" />
+    </form>
+
+</body>
+
+</html>
